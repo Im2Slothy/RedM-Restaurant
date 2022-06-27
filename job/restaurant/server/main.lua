@@ -13,7 +13,7 @@ AddEventHandler("Redm-Restaurant:checkjobrestaurant", function()
     local job = Character.job
     for k,v in pairs(Config.RestaurantLocation) do
         if job == v.Job then
-            TriggerClientEvent('resturant":open', _source)
+            TriggerClientEvent('resturant:open', _source)
         --[[else
             TriggerClientEvent("vorp:Tip", _source, "You dont work on the saloon", 4000) -- from server side]]
         end
@@ -44,7 +44,7 @@ AddEventHandler("Redm-Restaurant:checkjobsdresturant", function()
     end
 end)
 
-RegisterServerEvent("Redm-Restaurant:checkjobsdresturant2)
+RegisterServerEvent("Redm-Restaurant:checkjobsdresturant2")
 AddEventHandler("Redm-Restaurant:checkjobsdresturant2", function()
     local _source = source
     local Character = VorpCore.getUser(_source).getUsedCharacter
