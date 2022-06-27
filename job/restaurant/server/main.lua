@@ -15,7 +15,7 @@ AddEventHandler("Redm-Restaurant:checkjobrestaurant", function()
         if job == v.Job then
             TriggerClientEvent('resturant:open', _source)
         --[[else
-            TriggerClientEvent("vorp:Tip", _source, "You dont work on the saloon", 4000) -- from server side]]
+            TriggerClientEvent("vorp:Tip", _source, "You dont work at the resturant", 4000) -- from server side]]
         end
     end
 end)
@@ -108,7 +108,7 @@ end)
 
 
 RegisterServerEvent("Redm-Restaurant:giveResWhiskey")
-AddEventHandler("Redm-Restaurant:giveSaloonWhiskey", function()
+AddEventHandler("Redm-Restaurant:giveResWhiskey", function()
     local _source = source
     if count == nil then 
         count = 1

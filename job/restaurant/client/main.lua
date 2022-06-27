@@ -103,7 +103,7 @@ end)
 
 RegisterNetEvent(":open")
 AddEventHandler("resturant:open", function()
-    openSaloonmenu()
+    openResturantmenu()
 end)
 
 function whenKeyJustPressed(key)
