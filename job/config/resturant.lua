@@ -12,26 +12,6 @@ Config.ResturantLocation = {
     ResSaintDenis = {
     	Pos = { x = 2639.9711914062, y = -1224.0897216797, z = 53.530384063721 },
         Job = "sdresturant"
-    },
-    ResSaintDenis2 = {
-        Pos = {x = , y = , z = },
-        Job = "sdresturant2"
-    },
-    ResRhodes = {
-        Pos = {x = , y = , z = },
-        Job = "rhresturant"
-    },
-    ResVanHorn = {
-        Pos = {x = , y = , z = },
-        Job = "vanhornresturant"
-    },
-    ResArmadillo = {
-        Pos = {x = , y = , z = },
-        Job = "adresturant"
-    },
-    ResTumbleweed = {
-        Pos = {x = , y = , z = },
-        Job = "twresturant"
     }
 
 }
